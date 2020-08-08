@@ -20,6 +20,7 @@ AutoEncoderは入力と出力がなるべく近くなるように学習する。
 ![model](https://github.com/Jumpei-Fujita/ConvolutionalAutoEncoder/blob/master/image.png)<br>
 ### 出力画像
 ![model](https://github.com/Jumpei-Fujita/ConvolutionalAutoEncoder/blob/master/result.png)
+傷を若干復元できている（？）
 ### encoderの出力
 ![model](https://github.com/Jumpei-Fujita/ConvolutionalAutoEncoder/blob/master/encoded.png)
 
