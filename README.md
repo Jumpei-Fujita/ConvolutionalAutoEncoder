@@ -9,7 +9,7 @@
 AutoEncoderは入力と出力がなるべく近くなるように学習する。
 
 ## モデル構築
-![model](https://github.com/Jumpei-Fujita/kadai2/blob/master/dentsu_neuralnet.png)<br>
+![model](https://github.com/Jumpei-Fujita/ConvolutionalAutoEncoder/blob/master/CAE_architecture.png)<br>
 モデルの構造は以下の通りである。
 出力と訓練データのラベルのMSEを最小にするように学習パラメータの更新を行った。
 訓練時に訓練データに傷を入れ、その傷があっても元どおり復元できることを目指した。
@@ -17,7 +17,7 @@ AutoEncoderは入力と出力がなるべく近くなるように学習する。
 
 ## 結果
 ### 入力画像
-
+![model](https://github.com/Jumpei-Fujita/ConvolutionalAutoEncoder/blob/master/CAE_architecture.png)<br>
 ### 学習の様子
 ![model](https://github.com/Jumpei-Fujita/kadai2/blob/master/glaph.png)
 
