@@ -17,9 +17,11 @@ AutoEncoderは入力と出力がなるべく近くなるように学習する。
 
 ## 結果
 ### 入力画像
-![model](https://github.com/Jumpei-Fujita/ConvolutionalAutoEncoder/blob/master/CAE_architecture.png)<br>
-### 学習の様子
-![model](https://github.com/Jumpei-Fujita/kadai2/blob/master/glaph.png)
+![model](https://github.com/Jumpei-Fujita/ConvolutionalAutoEncoder/blob/master/image.png)<br>
+### 出力画像
+![model](https://github.com/Jumpei-Fujita/ConvolutionalAutoEncoder/blob/master/result.png)
+### encoderの出力
+![model](https://github.com/Jumpei-Fujita/ConvolutionalAutoEncoder/blob/master/encoded.png)
 
 ## コードの実行手順
 CAE.ipynbを上から順に実行していく
