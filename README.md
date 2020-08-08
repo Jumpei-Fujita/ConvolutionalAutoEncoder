@@ -10,21 +10,19 @@ AutoEncoderは入力と出力がなるべく近くなるように学習する。
 
 ## モデル構築
 ![model](https://github.com/Jumpei-Fujita/kadai2/blob/master/dentsu_neuralnet.png)<br>
-今回はニューラルネットワークにより学習を行うことで回帰を行った。
-ニューロン数は上の画像の通りである。
+モデルの構造は以下の通りである。
 出力と訓練データのラベルのMSEを最小にするように学習パラメータの更新を行った。
-最適化手法はSGDを選択し、ハイパーパラメータとしてlearning rate、weight decayの設定を訓練データ、検証用データの評価を考慮して行った。
+訓練時に訓練データに傷を入れ、その傷があっても元どおり復元できることを目指した。
+最適化手法はAdamを選択した。
 
-## テスト結果
-### 1.テスト用データに対するMAE, RMSE, MER(平均誤差率)
-|learning rate|weight decay|MAE|RMSE|MER|R2スコア|
-|:--|:--|:--|:--|:--|:--|
-|0.1|10^(-8)|135447.69|241691.66|24%|0.6078636|
+## 結果
+### 入力画像
+
 ### 学習の様子
 ![model](https://github.com/Jumpei-Fujita/kadai2/blob/master/glaph.png)
 
 ## コードの実行手順
-price.ipynbを上から順に実行していく
+CAE.ipynbを上から順に実行していく
 
 
 
